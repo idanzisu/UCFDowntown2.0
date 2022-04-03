@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UCF Mobile – Login</title>
+  <meta name="description" content="UCF Mobile Login">
+  <meta name="author" content="Group 3">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png?v=1">
+  <link rel="manifest" href="../img/site.webmanifest?v=1">
+  <link rel="mask-icon" href="../img/safari-pinned-tab.svg?v=1" color="#ffffff">
+  <link rel="shortcut icon" href="../img/favicon.ico?v=1">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="../img/browserconfig.xml?v=1">
+
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="../css/framework.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="banner-top">
+      <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+        <div class="col col-12 text-center">
+          <a class="btn" href="#"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Image Header -->
+    <div class="media-background-container">
+      <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
+      <div class="row login-banner-bottom">
+        <div class="col col-12"><img src="../img/TheTab_sm.png" alt="" class="login-banner-logo"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col">
+        <h1 class="heading-underline">Login</h1>
+        <form class="pt-5" action="home.html">
+          <div class="form-group">
+            <label for="loginUsername">UCF NID</label>
+            <input type="text" class="form-control" id="loginUsername" aria-describedby="usernameHelp" placeholder="Enter NID">
+            <small id="usernameHelp" class="form-text text-muted">Two letters and 6 numbers.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Log In</button>
+            <a href="reset.html" class="btn btn-link btn-sm">Forgot Password</a>
+            <hr class="mt-4">
+            <a href="home.html" class="btn btn-inverse btn-sm">Continue as Guest</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha384-CPFFlrdhp9pDDCqRqdTKNZ5oAHsnfnvHGt0CsRIeL5Gc7V/OkP1Y4w8zTxlV3mat" crossorigin="anonymous"></script>
+<script src="https://cdn.ucf.edu/athena-framework/v1.1.0/js/framework.min.js"></script>
+
+</html>

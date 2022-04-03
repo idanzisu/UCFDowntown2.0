@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UCF Mobile</title>
+  <meta name="description" content="UCF Mobile">
+  <meta name="author" content="Group 3">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png?v=1">
+  <link rel="manifest" href="../img/site.webmanifest?v=1">
+  <link rel="mask-icon" href="../img/safari-pinned-tab.svg?v=1" color="#ffffff">
+  <link rel="shortcut icon" href="../img/favicon.ico?v=1">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="../img/browserconfig.xml?v=1">
+
+  <meta name="theme-color" content="#adadad">
+  <link rel="stylesheet" href="css/framework.min.css">
+  <link rel="stylesheet" href="css/mockup.css">
+
+</head>
+
+<body>
+  <!-- Mobile Redirect Banner --->
+  <div class="alert alert-info fade" role="alert" id="mobile-alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>On Mobile?</strong>
+    <br>
+    <a href="app/login.html" class="alert-link">Click Here</a> to go full screen.
+  </div>
+
+  <!-- Prototype Wrapper -->
+  <div class="proto-wrapper">
+    <img src="img/iPhone-12.png" alt="" class="proto-frame">
+    <!-- <div class="notch-padding"></div> -->
+    <iframe src="app/login.html" frameborder="0" class="proto-content"></iframe>
+  </div>
+
+  <footer class="pt-5">
+    <div class="row">
+      <div class="col text-center">
+        <a class="btn btn-primary" href="https://github.com/mikojimnz/DIG4104C" target="_blank" role="button"><i class="fab fa-github"></i> View Source</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha384-CPFFlrdhp9pDDCqRqdTKNZ5oAHsnfnvHGt0CsRIeL5Gc7V/OkP1Y4w8zTxlV3mat" crossorigin="anonymous"></script>
+<script src="https://cdn.ucf.edu/athena-framework/v1.1.0/js/framework.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="scripts/mockup.js"></script>
+</html>
