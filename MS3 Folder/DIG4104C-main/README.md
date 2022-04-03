@@ -21,9 +21,3 @@ Made with HTML, SASS, and JavaScript.
 **Download the Repo**
 
 Download the repo from the `main` branch.
-
-## Contributing
-
-See [Contributing.md](https://github.com/mikojimnz/DIG4104C/blob/main/CONTRIBUTING.md).
-
-Please check the [Project Boards](https://github.com/mikojimnz/DIG4104C/projects/1) for the latest project roadmap.
