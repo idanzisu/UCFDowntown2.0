@@ -1,5 +1,5 @@
-# DIG4172C
-**Workshop 2 – UCF Downtown Mobile**
+# DIG4172C Web Design Workshop II
+**UCF Downtown Mobile**
 
 Made with HTML, SASS, and JavaScript.
 
