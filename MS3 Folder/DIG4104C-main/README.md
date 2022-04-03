@@ -1,5 +1,5 @@
 # DIG4104C
-**Workshop 1 – UCF Mobile**
+**Workshop 2 – UCF Downtown Mobile**
 
 Made with HTML, SASS, and JavaScript.
 
