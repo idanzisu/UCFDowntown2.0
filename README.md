@@ -16,7 +16,7 @@ Made with HTML, SASS, and JavaScript.
 ## Usage
 **View on Github Pages**
 
-[View the demo](https://idanzisu.github.io/UCFDowntown2.0/)
+[View the demo](https://mikojimnz.github.io/DIG4104C/)
 
 **Download the Repo**
 
