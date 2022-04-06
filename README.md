@@ -14,9 +14,6 @@ Made with HTML, SASS, and JavaScript.
 - [tether](https://github.com/shipshapecode/tether)
 
 ## Usage
-**View on Github Pages**
-
-[View the demo](https://mikojimnz.github.io/DIG4104C)
 
 **Download the Repo**
 
